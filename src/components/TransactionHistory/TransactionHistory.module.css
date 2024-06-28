@@ -1,0 +1,36 @@
+.table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 700px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.header .headerRow {
+  background-color: rgb(49, 48, 48);
+  color: #ffffff;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  padding: 8px 10px;
+  text-align: center;
+  text-transform: capitalize;
+  border-left: 1px solid black;
+}
+
+.tableBody,
+.tableRow {
+  border-bottom: 1px solid black;
+}
+
+.tableBody .tableRow:nth-of-type(even) {
+  background-color: rgb(169, 164, 164);
+}
+
+.tableBody .tableRow:nth-of-type(odd) {
+  background-color: white;
+}

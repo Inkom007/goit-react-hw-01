@@ -1,6 +1,9 @@
+import clsx from "clsx";
+import s from "./FriendList.module.css";
+
 const FriendList = ({ friends }) => {
   return (
-    <ul>
+    <ul className={s.friendsList}>
       {friends.map((friend) => {
         return (
           <li key={friend.id}>
@@ -18,10 +21,12 @@ const FriendList = ({ friends }) => {
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <div>
-      <img src={avatar} alt="Avatar" width={48} />
-      <p>{name}</p>
-      <p>{isOnline ? "Online" : "Offline"}</p>
+    <div className={s.card}>
+      <img className={s.avatar} src={avatar} alt="Avatar" width={48} />
+      <p className={s.name}>{name}</p>
+      <p className={clsx(isOnline ? s.green : s.red)}>
+        {isOnline ? "Online" : "Offline"}
+      </p>
     </div>
   );
 };

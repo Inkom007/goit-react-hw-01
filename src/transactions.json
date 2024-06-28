@@ -32,7 +32,7 @@
   {
     "id": "ed0263e8-59a5-4bf1-87e0-2bb88e53dc34",
     "type": "withdrawal",
-    " amount": "907.00",
+    "amount": "907.00",
     "currency": "GEL"
   },
   {
@@ -43,7 +43,7 @@
   },
   {
     "id": "9648a350-8469-42d5-8bf3-18090de5fe67",
-    " type": "withdrawal",
+    "type": "withdrawal",
     "amount": "322.32",
     "currency": "MRO"
   },
@@ -51,6 +51,6 @@
     "id": "9c5c25fb-1a95-4b2f-8d1f-4c4426d677cc",
     "type": "invoice",
     "amount": "14.79",
-    " currency": "PYG"
+    "currency": "PYG"
   }
 ]

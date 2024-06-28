@@ -1,0 +1,66 @@
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.userCard {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 320px;
+  height: 340px;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.name {
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.tag {
+  font-size: 20px;
+  color: grey;
+}
+
+.location {
+  composes: tag;
+}
+
+.info {
+  text-align: center;
+}
+
+.dataInfo {
+  border-collapse: collapse;
+  border-top: 2px solid gray;
+  background-color: rgb(205, 201, 201);
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dataInfoItem {
+  padding: 10px;
+  border-right: 2px solid gray;
+  width: 50px;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.dataInfo li:last-child {
+  border: none;
+}
+.text {
+  font-size: 20px;
+}
+
+.numbers {
+  font-weight: 600;
+}
