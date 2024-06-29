@@ -1,0 +1,25 @@
+.card {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.red {
+  text-align: center;
+  color: red;
+}
+
+.green {
+  text-align: center;
+  color: green;
+}
